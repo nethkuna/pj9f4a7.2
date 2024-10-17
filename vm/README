@@ -1,0 +1,36 @@
+# ASIX2 PJ9 2024-2025 FJE CLOT
+
+## Requisits
+
+Requereix tenir instal·lat previament:
+1. Git https://git-scm.com/
+2 Virtualbox https://www.virtualbox.org/
+3. Vagrant https://www.vagrantup.com/
+
+## Pasos a seguir
+
+
+1. Inicia la màquina virtual amb les ordres de `Vagrant` (des de la màquina física):
+
+	vagrant up
+
+2. Si volem veure l'estat de la màquina (des de la màquina física):
+
+	vagrant status
+
+3. Accedeix a la màquina virtual per SSH, per poder realitzar el curs:
+
+	vagrant ssh
+
+4. Si volem sortir de la màquina (des de dins de la màquina):
+	
+	exit
+
+5. Si volem aturar la màquina:
+
+	vagrant halt
+
+6. Si volem esborrar la màquina (des de la màquina física):
+
+	vagrant destroy
+	
